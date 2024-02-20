@@ -1,0 +1,22 @@
+$def with(username, password)
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio de sesión</title>
+    </head>
+    <body>
+        <h1>Introduzca sus datos</h1>
+        <form method="post">
+            <label for="username">Introduzca su usuario</label>
+            <input type="text" name="username" required>
+            <br>
+            <label for="password">Introduzca su contraseña</label>
+            <input type="password" name="password" required>  <!-- Cambiado a type="password" -->
+            <br>
+            <input type="submit" value="Iniciar sesión">
+        </form>
+    </body>
+</html>
